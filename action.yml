@@ -1,6 +1,9 @@
 name: "VAR.js"
 description: "VAR (Various Automated Reviews) is a deadly simple task runner based on npm scripts"
 author: "Pedro Mutter"
+branding:
+  color: yellow
+  icon: monitor
 runs:
   using: "docker"
   image: "Dockerfile"

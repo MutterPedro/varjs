@@ -1,5 +1,7 @@
 name: VAR.js running inside its own project!
-on: push
+on:
+  - push
+  - pull_request
 jobs:
   lint:
     name: Linting VAR project
