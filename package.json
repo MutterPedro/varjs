@@ -1,0 +1,46 @@
+{
+  "name": "varjs",
+  "version": "0.1.0",
+  "description": "VAR (Various Automated Reviews) runs scripts defined in your package.json",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write **/*.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actions/container-toolkit-template.git"
+  },
+  "keywords": [
+    "actions",
+    "js",
+    "javascript",
+    "var",
+    "automated",
+    "reviews",
+    "various automated reviews"
+  ],
+  "author": "Pedro Mutter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mutterpedro/varjs/issues"
+  },
+  "homepage": "https://github.com/mutterpedro/varjs#readme",
+  "dependencies": {
+    "@actions/core": "^1.0.0",
+    "@actions/io": "^1.0.0",
+    "@actions/exec": "^1.0.0",
+    "@actions/github": "^1.0.0",
+    "@actions/tool-cache": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.12.30",
+    "jest": "^24.8.0",
+    "jest-circus": "^24.7.1",
+    "prettier": "^1.17.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
+  }
+}

@@ -1,11 +1,27 @@
-name: A workflow for my Hello World file
+name: VAR.js running inside it own project!
 on: push
 jobs:
-  build:
-    name: Hello world action
+  lint:
+    name: Linting VAR project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: ./action-a
+      - uses: actions/checkout@v2
+      - uses: ./src
         with:
-          MY_NAME: "Mona"
+          SCRIPT: "format"
+  test:
+    name: Linting VAR project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./src
+        with:
+          SCRIPT: "test"
+  build:
+    name: Linting VAR project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./src
+        with:
+          SCRIPT: "build"
