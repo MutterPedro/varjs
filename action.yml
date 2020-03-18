@@ -1,10 +1,6 @@
-name: 'Container Action Template'
-description: 'Get started with Container actions'
-author: 'GitHub'
-inputs: 
-  myInput:
-    description: 'Input to use'
-    default: 'world'
+name: "VAR.js"
+description: "VAR (Various Automated Reviews) is a deadly simple task runner based on npm scripts"
+author: "Pedro Mutter"
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "docker"
+  image: "Dockerfile"
