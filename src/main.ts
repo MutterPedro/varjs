@@ -10,6 +10,10 @@ async function run() {
     const script = core.getInput("script");
     const context = github.context;
 
+    execSync("pwd");
+    execSync("ls");
+    execSync("ls /");
+
     execSync(`cd ${context.repo.repo} && npm run ${script}`);
   } catch (error) {
     core.setFailed(error.message);
