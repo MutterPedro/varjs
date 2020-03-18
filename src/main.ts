@@ -1,6 +1,6 @@
 import { execSync } from "child_process";
 
-import core from "@actions/core";
+import * as core from "@actions/core";
 import github from "@actions/github";
 
 async function run() {
