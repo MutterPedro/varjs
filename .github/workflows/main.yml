@@ -1,4 +1,4 @@
-name: VAR.js running inside it own project!
+name: VAR.js running inside its own project!
 on: push
 jobs:
   lint:
