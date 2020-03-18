@@ -9,7 +9,7 @@ async function run() {
 
     const script = core.getInput("script");
 
-    execSync(`cd $GITHUB_WORKSPACE && npm run ${script}`);
+    execSync(`cd $GITHUB_WORKSPACE && npm install && npm run ${script}`);
   } catch (error) {
     core.setFailed(error.message);
   }

@@ -4,6 +4,6 @@ RUN apk add --update npm
 
 COPY . .
 
-RUN npm install --production
+RUN npm install --production && npm cache clean --force
 
 ENTRYPOINT ["node", "/lib/main.js"]
