@@ -1,6 +1,6 @@
 {
   "name": "varjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VAR (Various Automated Reviews) runs scripts defined in your package.json",
   "main": "lib/main.js",
   "scripts": {
