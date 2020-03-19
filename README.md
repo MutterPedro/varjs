@@ -1,12 +1,15 @@
 # VAR.js
 
-<div style="text-align:center">
-    <img alt="varjs logo" style="height:200px" src="./assets/logo.svg" />
-</div>
-
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fmutterpedro%2Fvarjs%2Fbadge&style=for-the-badge)](https://actions-badge.atrox.dev/mutterpedro/varjs/goto)
+<p align="center">
+    <img alt="varjs logo" width="300" src="./assets/logo.svg" />
+</p>
+<p align="center">
+    <a href="https://actions-badge.atrox.dev/mutterpedro/varjs/goto">
+        <img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fmutterpedro%2Fvarjs%2Fbadge&style=flat" />
+    </a>
+    <a href="https://conventionalcommits.org">
+        <img alt="Conventional commits v1.0.0" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg"/>       </a>
+</p>
 
 ## Motivation
 
