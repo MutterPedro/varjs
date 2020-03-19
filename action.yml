@@ -4,6 +4,10 @@ author: "Pedro Mutter"
 branding:
   color: yellow
   icon: monitor
+inputs:
+  script:
+    description: "Name of the npm script to run"
+    required: true
 runs:
   using: "docker"
   image: "Dockerfile"

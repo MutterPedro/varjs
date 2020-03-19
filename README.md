@@ -10,7 +10,7 @@
 
 ## Motivation
 
-**VAR.js** stands for **Various Automated Reviews JS**, and its name is inspired in the [VAR system](https://en.wikipedia.org/wiki/Video_assistant_referee) used in soccer games, which stands for **Video Assistant Referee**. Basically they do a similar job, they review things. VAR.js reviews if required tasks defined by the **developer team** is running successfully in a **push** or in a new **pull request**, for example. And soccer VAR reviews controversial game **bids** that need the **referee** attention. In an analogy, the game bids would be the PRs and pushes and the referee would be the developer.
+**VAR.js** stands for **Various Automated Reviews JS**, and its name is inspired in the [VAR system](https://en.wikipedia.org/wiki/Video_assistant_referee) used in soccer games, which stands for **Video Assistant Referee**. Basically they do a similar job, they review things. VAR.js reviews if required tasks defined by the **developer team** is running successfully in a **push** or in a new **pull request**, for example. And soccer VAR reviews controversial game **moves** that need the **referee** attention. In an analogy, the game moves would be the PRs and pushes and the referee would be the developer.
 
 ## Introduction
 
@@ -34,7 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: VAR.js
-        uses: MutterPedro/varjs@0.1.1
+        uses: MutterPedro/varjs@v1.0.1
         with:
           SCRIPT: "format"
   test:
@@ -43,7 +43,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: VAR.js
-        uses: MutterPedro/varjs@0.1.1
+        uses: MutterPedro/varjs@v1.0.1
         with:
           SCRIPT: "test"
   build:
@@ -52,7 +52,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: VAR.js
-        uses: MutterPedro/varjs@0.1.1
+        uses: MutterPedro/varjs@v1.0.1
         with:
           SCRIPT: "build"
 ```
