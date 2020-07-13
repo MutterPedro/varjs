@@ -43,7 +43,7 @@
     "jest": "^26.0.1",
     "jest-circus": "^26.0.1",
     "prettier": "^2.0.5",
-    "standard-version": "^8.0.0",
+    "standard-version": "^8.0.1",
     "ts-jest": "^26.1.0",
     "typescript": "^3.9.3"
   }
