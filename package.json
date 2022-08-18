@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/mutterpedro/varjs#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.9.1",
     "@actions/io": "^1.0.2",
     "@actions/exec": "^1.0.4",
     "@actions/github": "^3.0.0",
